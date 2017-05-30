@@ -25,17 +25,17 @@ shoe store test exercise
     BROWSER='firefox' bundle exec cucumber
     ```
 
-#TO DEBUG:
+# TO DEBUG:
     ```
     binding.pry as a stopping/entry point within the method
     ```
     
-#TO RUN ONLY STORY1 TESTS:
+# TO RUN ONLY STORY1 TESTS:
     ```
     bundle exec cucumber --tags @Story1
     ```
 
-#TO RUN ONLY STORY2 TESTS:
+# TO RUN ONLY STORY2 TESTS:
     ```
     bundle exec cucumber --tags @Story2
     ```
